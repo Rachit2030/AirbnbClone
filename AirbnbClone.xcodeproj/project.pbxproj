@@ -19,6 +19,7 @@
 		3CF2EDB12BEB366C00439966 /* DestinationSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF2EDB02BEB366B00439966 /* DestinationSearchView.swift */; };
 		3CF2EDB32BEB476200439966 /* ProfieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF2EDB22BEB476200439966 /* ProfieView.swift */; };
 		3CF2EDB52BEB48C400439966 /* ProfileOptionRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF2EDB42BEB48C400439966 /* ProfileOptionRowView.swift */; };
+		3CF2EDB72BEB49FD00439966 /* WishlistsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF2EDB62BEB49FD00439966 /* WishlistsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		3CF2EDB02BEB366B00439966 /* DestinationSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationSearchView.swift; sourceTree = "<group>"; };
 		3CF2EDB22BEB476200439966 /* ProfieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfieView.swift; sourceTree = "<group>"; };
 		3CF2EDB42BEB48C400439966 /* ProfileOptionRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileOptionRowView.swift; sourceTree = "<group>"; };
+		3CF2EDB62BEB49FD00439966 /* WishlistsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishlistsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,6 +185,7 @@
 		3CF2EDA42BE8CFCF00439966 /* Wishlists */ = {
 			isa = PBXGroup;
 			children = (
+				3CF2EDB62BEB49FD00439966 /* WishlistsView.swift */,
 			);
 			path = Wishlists;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 				3CF2ED8D2BE8CE5F00439966 /* ContentView.swift in Sources */,
 				3CF2EDA82BE8D18300439966 /* ListingItemView.swift in Sources */,
 				3CF2EDA62BE8D08800439966 /* ExploreView.swift in Sources */,
+				3CF2EDB72BEB49FD00439966 /* WishlistsView.swift in Sources */,
 				3CF2EDAA2BE8D6D900439966 /* SearchAndFilterBar.swift in Sources */,
 				3CF2EDB32BEB476200439966 /* ProfieView.swift in Sources */,
 				3CF2EDAC2BE8DB0300439966 /* ListingDetailView.swift in Sources */,
