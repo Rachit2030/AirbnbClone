@@ -15,11 +15,11 @@ enum DestinationSearchOptions{
 
 struct DestinationSearchView: View {
     @Binding var show: Bool
-    @State private var destination = ""
     @State private var selectedOption: DestinationSearchOptions = DestinationSearchOptions.location
     @State private var startDate: Date = Date()
     @State private var endDate: Date = Date()
     @State private var numGuests = 0
+    @ObservedObject var viewmodel: ExploreViewModel
     var body: some View {
         VStack{
             
@@ -35,9 +35,10 @@ struct DestinationSearchView: View {
             }
                 Spacer()
                 
-                if(!destination.isEmpty){
+                if(!viewmodel.searchLocation.isEmpty){
                     Button{
-                        destination = ""
+                        viewmodel.searchLocation = ""
+                        viewmodel.updateListingForLocation()
                         
                     }label: {
                         Text("Clear")
@@ -57,7 +58,10 @@ struct DestinationSearchView: View {
                         Image(systemName: "magnifyingglass")
                             .imageScale(.small)
                         
-                        TextField("Search destinations", text: $destination)
+                        TextField("Search destinations", text: $viewmodel.searchLocation)
+                            .onSubmit {
+                                viewmodel.updateListingForLocation()
+                            }
                             .font(.subheadline)
                     }.frame(height: 44)
                         .padding(.horizontal)
@@ -151,7 +155,7 @@ struct DestinationSearchView: View {
 }
 
 #Preview {
-    DestinationSearchView(show: .constant(true))
+    DestinationSearchView(show: .constant(true),viewmodel: ExploreViewModel(service: ExploreService()))
 }
 
 struct CollapsedPickerView: View {
