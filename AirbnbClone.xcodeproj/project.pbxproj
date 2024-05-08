@@ -16,6 +16,7 @@
 		3CF2EDAA2BE8D6D900439966 /* SearchAndFilterBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF2EDA92BE8D6D900439966 /* SearchAndFilterBar.swift */; };
 		3CF2EDAC2BE8DB0300439966 /* ListingDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF2EDAB2BE8DB0300439966 /* ListingDetailView.swift */; };
 		3CF2EDAF2BE8DB6B00439966 /* ListingImageCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF2EDAE2BE8DB6B00439966 /* ListingImageCarouselView.swift */; };
+		3CF2EDB12BEB366C00439966 /* DestinationSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF2EDB02BEB366B00439966 /* DestinationSearchView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		3CF2EDA92BE8D6D900439966 /* SearchAndFilterBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchAndFilterBar.swift; sourceTree = "<group>"; };
 		3CF2EDAB2BE8DB0300439966 /* ListingDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingDetailView.swift; sourceTree = "<group>"; };
 		3CF2EDAE2BE8DB6B00439966 /* ListingImageCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingImageCarouselView.swift; sourceTree = "<group>"; };
+		3CF2EDB02BEB366B00439966 /* DestinationSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationSearchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +132,7 @@
 			children = (
 				3CF2EDA52BE8D08800439966 /* ExploreView.swift */,
 				3CF2EDA92BE8D6D900439966 /* SearchAndFilterBar.swift */,
+				3CF2EDB02BEB366B00439966 /* DestinationSearchView.swift */,
 			);
 			path = Explore;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3CF2EDAF2BE8DB6B00439966 /* ListingImageCarouselView.swift in Sources */,
+				3CF2EDB12BEB366C00439966 /* DestinationSearchView.swift in Sources */,
 				3CF2ED8D2BE8CE5F00439966 /* ContentView.swift in Sources */,
 				3CF2EDA82BE8D18300439966 /* ListingItemView.swift in Sources */,
 				3CF2EDA62BE8D08800439966 /* ExploreView.swift in Sources */,
